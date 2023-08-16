@@ -28,15 +28,15 @@ body {
 }
 
 .velcro img{
-    width: 230px;
-    height: 160px;
+    width: 250px;
+    height: 200px;
     justify-content: center;
     display: flex;
     margin: auto;
 }
 
 .velcro h1{
-    font-size: 36px;
+    font-size: 26px;
     text-align: center;
 }
 
