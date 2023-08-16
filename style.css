@@ -27,6 +27,14 @@ body {
     padding: 30px 40px;
 }
 
+.velcro img{
+    width: 230px;
+    height: 160px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
 .velcro h1{
     font-size: 36px;
     text-align: center;
