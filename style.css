@@ -107,6 +107,11 @@ body {
     font-weight: 600;
 }
 
+.velcro .button a {
+    color: #333;
+    text-decoration: none;
+}
+
 .velcro .registro {
     font-size: 14.5px;
     text-align: center;

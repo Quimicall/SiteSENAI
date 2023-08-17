@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('fundo-site.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+nav.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color: #202020;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 rgb(119, 6, 153);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+nav.menu-lateral:hover {
+    width: 300px;
+}
+
+.btn-expandir img{
+    width: 100%;
+    padding-left: 1px;
+}
+
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.ativo{
+    background: rgb(119, 6, 153);
+}
+
+ul li.item-menu:hover {
+    background: rgb(119, 6, 153);
+}
+
+ul li.item-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 70px;
+    transition: .5s;
+    opacity: 1;
+}
+
+nav.menu-lateral.expandir .txt-link {
+    margin-left: 40px ;
+    opacity: 1;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.velcro {
+    width: 520px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.velcro img{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
+.velcro h1{
+    font-size: 26px;
+    text-align: center;
+}
+
