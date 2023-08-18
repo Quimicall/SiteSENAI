@@ -90,6 +90,7 @@ ul li.item-menu a .icon > i {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
   }
 
 .velcro {
@@ -177,8 +178,125 @@ ul li.item-menu a .icon > i {
 .item p {
     margin: 10px 0;
     color: #f0f0f0;
+}
+
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+}
+
+.sobre .qsomos {
+    width: 500px;
+    height: 380px;
+    margin: 8px;
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre h1 {
+    color: #f0f0f0;
+}
+
+.sobre p {
+    color: #f0f0f0;
+}
+
+.contato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+}
+.contato .contatos {
+    width: 200px;
+    height: 250px;
+    margin: 8px;
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, .2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato h1 {
+    color: #f0f0f0;
+}
+
+.contato p {
+    font-size: x-large;
+    color: #f0f0f0;
+}
+
+.instagram i {
+    margin-right: 10px ;
+}
+
+.contato .instagram {
+    width: 200px;
+    height: 250px;
+    margin: 8px;
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, .2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.instagram p a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o rodapé */
+footer.footer {
+    background-color: #202020;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Aumente o padding vertical para espaçamento */
+    position: relative;
+    width: 100%;
+    bottom: 0;
   }
   
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  
+
+
 /* Ajuste o tamanho dos itens para criar quadrados */
 @media (max-width: 800px) {
     .item {
