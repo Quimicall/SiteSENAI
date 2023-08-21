@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas Frequentes (FAQ)</title>
+    <link rel="stylesheet" href="stylefaq.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Perguntas Frequentes (FAQ)</h1>
+
+        <div class="faq-item">
+            <div class="question">Como faço para iniciar?</div>
+            <div class="answer">
+                <p>Para começar, siga os seguintes passos...</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">Posso alterar minha senha?</div>
+            <div class="answer">
+                <p>Sim, você pode alterar sua senha indo para a página de configurações...</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">Qual é o horário de atendimento?</div>
+            <div class="answer">
+                <p>Nosso horário de atendimento é de segunda a sexta, das 9h às 18h...</p>
+            </div>
+        </div>
+
+        <!-- Adicione mais perguntas frequentes conforme necessário -->
+
+    </div>
+
+    <script>
+        const questions = document.querySelectorAll(".question");
+
+        questions.forEach((question) => {
+            question.addEventListener("click", () => {
+                question.classList.toggle("active");
+                const answer = question.nextElementSibling;
+                if (question.classList.contains("active")) {
+                    answer.style.display = "block";
+                } else {
+                    answer.style.display = "none";
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
